@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Who can donate blood
+
+Can...
+
+Let others benefit from your good health. Do donate blood if ...
+
+you are between age group of 18-60 years.
+your weight is 45 kgs or more.
+your haemoglobin is 12.5 gm% minimum.
+your last blood donation was 3 months earlier.
+you are healthy and have not suffered from malaria, typhoid or other transmissible disease in the recent past.
+
+There are many, many people who meet these parameters of health and fitness!
+
+Do abide by our rules - be truthful about your health status!
+
+We ensure the health of blood, before we take it, as well as after it is collected. Firstly, the donor is expected to be honest about his or her health history and current condition. Secondly, collected blood is tested for venereal diseases, hepatitis B and amp; C and AIDS.
+
+You have to be healthy to give &apos;safe blood&apos;"
+        android:textStyle="bold" />
+
+</LinearLayout>

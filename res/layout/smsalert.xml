@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back" >
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_marginBottom="34dp"
+        android:background="#663300"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText2"
+        android:layout_alignLeft="@+id/editText2"
+        android:inputType="phone"
+        android:text="Enter Mobile   "
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:background="#663300"
+        android:ems="10"
+        android:gravity="top"
+        android:textColor="#ffffff" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="52dp"
+        android:background="#800000"
+        android:text="Send"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText1"
+        android:layout_alignLeft="@+id/editText1"
+        android:text="Enter Message"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EditText01"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/TextView01"
+        android:layout_alignLeft="@+id/TextView01"
+        android:background="#663300"
+        android:ems="10"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/EditText01"
+        android:layout_alignLeft="@+id/EditText01"
+        android:inputType="phone"
+        android:text="Enter Date   "
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</RelativeLayout>
